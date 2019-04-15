@@ -57,7 +57,7 @@ end
 
 def add_s(array)
   array.each {|element|
-    "#{element}s"
+    element[element.length+1] = "s"
   }
 end
 
