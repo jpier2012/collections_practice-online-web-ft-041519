@@ -53,7 +53,7 @@ def sum_array(array)
   array.inject {|memo, num|
     memo + num
   }
-  binding.pry
+  #binding.pry
 end
 
 sum_array(1..5)
