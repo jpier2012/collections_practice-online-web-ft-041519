@@ -53,7 +53,5 @@ def sum_array(array)
   array.inject {|memo, num|
     memo + num
   }
-  #binding.pry
 end
 
-print *[1..5]
