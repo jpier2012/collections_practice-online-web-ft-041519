@@ -56,9 +56,10 @@ def sum_array(array)
 end
 
 def add_s(array)
-  new_array = array.each {|element|
-                element << "s"
-              }
-end
+  new_array = array.each_with_index.collect {|element, index|
+    if index != 1
+      "#{element}s"
+    end
+  }
 
 #puts add_s(["James","Wowser","Epp"])
