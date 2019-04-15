@@ -56,10 +56,9 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.each {|element|
-    chars = element.length
-    element[chars] = "s"
-  }
+  new_array = array.each {|element|
+                element[chars] = "s"
+              }
 end
 
-puts add_s(["James","Wowser","Epp"])
+#puts add_s(["James","Wowser","Epp"])
