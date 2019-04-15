@@ -54,4 +54,3 @@ def sum_array(array)
     memo + num
   }
 end
-
