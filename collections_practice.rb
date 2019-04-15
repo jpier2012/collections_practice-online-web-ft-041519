@@ -59,5 +59,5 @@ def add_s(array)
   array.each {|element|
     "#{element}s"
   }
-  
+
 end
