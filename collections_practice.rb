@@ -54,3 +54,10 @@ def sum_array(array)
     memo + num
   }
 end
+
+def add_s(array)
+  array.each {|element|
+    "#{element}s"
+  }
+  
+end
