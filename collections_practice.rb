@@ -61,5 +61,5 @@ def add_s(array)
       "#{element}s"
     end
   }
-
+end
 #puts add_s(["James","Wowser","Epp"])
