@@ -56,4 +56,4 @@ def sum_array(array)
   #binding.pry
 end
 
-print [*(1..5)]
+print *(1..5)
