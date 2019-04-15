@@ -48,3 +48,9 @@ def find_a(array)
       word[0] == "a"
     }
 end
+
+def sum_array(array)
+  array.inject {|memo, num|
+    memo + num
+  }
+end
