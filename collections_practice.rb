@@ -56,4 +56,4 @@ def sum_array(array)
   #binding.pry
 end
 
-sum_array(1..5)
+puts sum_array(1..5)
